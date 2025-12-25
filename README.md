@@ -19,7 +19,7 @@ I also love obscure arcade rhythm games, although I did learn how to use profess
 - 1x pop n controller base.step
 - 1x pop n controller top.step
 - 9x pop n keycap.step
-The pin connectors appear in the 3d model, but they are not needed. Instead, 18 cables need to be soldered to each of the buttons in order for them to be placed. I already have access to the cables.
+-The pin connectors appear in the 3d model, but they are not needed. Instead, 18 cables need to be soldered to each of the buttons in order for them to be placed. I already have access to the cables.
 
 <img width="1592" height="1852" alt="Captura de pantalla 2025-12-24 161639" src="https://github.com/user-attachments/assets/d255d296-a0c7-494e-ade1-8b6240cee5c3" />
 
