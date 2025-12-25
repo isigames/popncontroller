@@ -5,6 +5,148 @@
 	(uuid "ff34aeee-e72e-48d1-8b80-cee7337461b3")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Seeed_Studio_XIAO_Series:XIAO-RP2040-DIP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -986,52 +1128,62 @@
 		)
 	)
 	(junction
-		(at 90.17 166.37)
+		(at 90.17 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0b663ec6-5b39-4b1b-9a0b-63b1928e90a5")
-	)
-	(junction
-		(at 90.17 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62e6d2bf-16ef-4a3b-92a8-30fe6bd9525b")
+		(uuid "19324d4c-7fd2-455c-a824-4eb0458dd226")
 	)
 	(junction
 		(at 90.17 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "991855cd-9a80-46c3-b3ff-8e30e9b3a03c")
-	)
-	(junction
-		(at 90.17 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99203624-20c8-46f0-ab1e-fdfaea1d21c7")
-	)
-	(junction
-		(at 90.17 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c600c798-a646-4345-ba9b-aa3ec03add33")
+		(uuid "38948099-b0dc-4b7d-bc47-3f71e778ccb6")
 	)
 	(junction
 		(at 90.17 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d3835a93-a203-45ba-8f33-a9aae80b6e1f")
+		(uuid "6d15ad30-71d4-4be6-bd1b-52a20bbd19e0")
+	)
+	(junction
+		(at 90.17 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "851cc6c0-525a-4a3a-a2c0-2a007deb10a0")
+	)
+	(junction
+		(at 90.17 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "994adf04-6fc9-472e-ac30-a7a8e8818cba")
 	)
 	(junction
 		(at 90.17 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dac955f7-b8b8-42d9-9062-7ea65bc9ce65")
+		(uuid "9f3dbd5b-e85b-478d-a60d-78fc035b6338")
 	)
 	(junction
 		(at 90.17 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f5039ae2-1b3f-409d-9897-2074d3b487cb")
+		(uuid "bf4f787b-bcc2-4ee4-98ff-c3f8af67738f")
+	)
+	(junction
+		(at 90.17 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f639e11d-043a-42ab-b8ab-be69adab8cab")
+	)
+	(wire
+		(pts
+			(xy 90.17 166.37) (xy 90.17 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004fbe68-4765-4c46-83f8-28482bdafea0")
 	)
 	(wire
 		(pts
@@ -1045,53 +1197,53 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 132.08) (xy 90.17 143.51)
+			(xy 90.17 86.36) (xy 90.17 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "099c3f09-c5be-4ca1-9f4c-121658bff63c")
+		(uuid "093a17df-b3a6-4826-99da-69a2f0ce2134")
 	)
 	(wire
 		(pts
-			(xy 100.33 132.08) (xy 111.76 132.08)
+			(xy 90.17 109.22) (xy 90.17 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16072508-9fe3-48e6-ade5-0960b6c5881b")
+		(uuid "0bac288d-ce9d-4f73-b0ba-b6349d180247")
 	)
 	(wire
 		(pts
-			(xy 90.17 97.79) (xy 90.17 109.22)
+			(xy 90.17 143.51) (xy 90.17 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "176cfeca-91ae-4f81-ae09-8897669942fd")
+		(uuid "0d6d462d-4fa0-4363-a996-939ca5798049")
 	)
 	(wire
 		(pts
-			(xy 100.33 166.37) (xy 154.94 166.37)
+			(xy 90.17 120.65) (xy 90.17 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17786f8f-a4f1-4dc8-b587-74d4c2bc32d0")
+		(uuid "141cf3a3-c6f1-4e47-b45f-24b8531da881")
 	)
 	(wire
 		(pts
-			(xy 90.17 74.93) (xy 90.17 86.36)
+			(xy 90.17 154.94) (xy 93.98 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1da01e45-30cb-405b-8946-78c11deeb86f")
+		(uuid "16895f61-118f-43ca-b46e-d04bc0079c06")
 	)
 	(wire
 		(pts
@@ -1105,33 +1257,153 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 120.65) (xy 106.68 120.65)
+			(xy 49.53 82.55) (xy 62.23 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37fb6d5a-20fb-4bd3-93f1-1a6f4a044aec")
+		(uuid "229f4cae-d37c-418c-9c61-180791c64180")
 	)
 	(wire
 		(pts
-			(xy 90.17 154.94) (xy 90.17 166.37)
+			(xy 62.23 62.23) (xy 62.23 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44d2526c-b5aa-4a80-9a18-1b7bb39a756a")
+		(uuid "2539ba54-23cb-417c-9e4d-01f61256dad6")
 	)
 	(wire
 		(pts
-			(xy 100.33 109.22) (xy 109.22 109.22)
+			(xy 90.17 120.65) (xy 93.98 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4af324d7-1d28-4d22-b3b9-df3bca6e9b74")
+		(uuid "26cacaeb-2678-412d-b999-7edac1062b4d")
+	)
+	(wire
+		(pts
+			(xy 62.23 184.15) (xy 62.23 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2803faaa-6aa9-449c-889e-78adcb137aee")
+	)
+	(wire
+		(pts
+			(xy 49.53 97.79) (xy 62.23 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d2e88d-aabe-437b-aae8-8e16b55f93df")
+	)
+	(wire
+		(pts
+			(xy 62.23 97.79) (xy 62.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a755312-e0e2-41a3-9fcc-accd2dcdac11")
+	)
+	(wire
+		(pts
+			(xy 90.17 143.51) (xy 93.98 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b33ae83-b359-4877-befc-96c63e81c173")
+	)
+	(wire
+		(pts
+			(xy 62.23 128.27) (xy 62.23 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bdc8e9d-11eb-4c5c-ac1b-1d41501d8799")
+	)
+	(wire
+		(pts
+			(xy 62.23 138.43) (xy 62.23 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "319ef18c-28f4-434a-90f8-2beb47a0096d")
+	)
+	(wire
+		(pts
+			(xy 90.17 132.08) (xy 90.17 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3369f3b1-9c5f-4759-8951-6aed8cac8eba")
+	)
+	(wire
+		(pts
+			(xy 90.17 97.79) (xy 93.98 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340e0af9-8f31-43f9-85fd-b89f9f02a0cf")
+	)
+	(wire
+		(pts
+			(xy 49.53 62.23) (xy 62.23 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3410330f-d5b7-41d3-b00b-1d95ef4598d0")
+	)
+	(wire
+		(pts
+			(xy 49.53 138.43) (xy 62.23 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b5a5960-877b-4a69-9b61-36be6ba33459")
+	)
+	(wire
+		(pts
+			(xy 96.52 120.65) (xy 106.68 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5c199a-0b85-48c8-b1b9-8d8ac513d0db")
+	)
+	(wire
+		(pts
+			(xy 90.17 97.79) (xy 90.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49147de6-3d08-4506-b360-5aafbef22d32")
 	)
 	(wire
 		(pts
@@ -1142,6 +1414,46 @@
 			(type default)
 		)
 		(uuid "4e1bf6a3-18e0-4dcc-b0a2-60c0a2d0256b")
+	)
+	(wire
+		(pts
+			(xy 62.23 168.91) (xy 62.23 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eaf7a6d-cbde-4051-a5e8-58a9ec70cab0")
+	)
+	(wire
+		(pts
+			(xy 49.53 52.07) (xy 62.23 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5042a263-ff64-487a-b079-c80246764804")
+	)
+	(wire
+		(pts
+			(xy 96.52 74.93) (xy 116.84 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f60231-54c5-46c2-a69b-9eab906af4ec")
+	)
+	(wire
+		(pts
+			(xy 62.23 107.95) (xy 62.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bdbb34c-cc6b-475c-91f2-c75a4ac218ff")
 	)
 	(wire
 		(pts
@@ -1175,13 +1487,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 143.51) (xy 90.17 154.94)
+			(xy 49.53 168.91) (xy 62.23 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67615e9f-ddaf-420c-8f0d-5a4a66374ea3")
+		(uuid "62be3018-c161-49a8-9632-82342eeeec57")
+	)
+	(wire
+		(pts
+			(xy 49.53 92.71) (xy 62.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e2ae9d-d11f-4443-b540-6a1b434e6100")
 	)
 	(wire
 		(pts
@@ -1195,13 +1517,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 86.36) (xy 114.3 86.36)
+			(xy 90.17 166.37) (xy 93.98 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75859e61-d82e-4b7c-a723-4d49b0078ea1")
+		(uuid "743341e7-c64f-497a-addb-85bc48608b28")
+	)
+	(wire
+		(pts
+			(xy 90.17 132.08) (xy 93.98 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75280b2f-1505-4405-bf77-143a96ef775a")
 	)
 	(wire
 		(pts
@@ -1215,13 +1547,63 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 109.22) (xy 90.17 120.65)
+			(xy 49.53 113.03) (xy 62.23 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e399139-71ce-4ffc-ac3e-c94e1a4db044")
+		(uuid "78e0ee12-ff2e-4475-8e76-9ac3e9149f06")
+	)
+	(wire
+		(pts
+			(xy 49.53 128.27) (xy 62.23 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e3c2af-5696-4e94-9b73-b1ab04267d5e")
+	)
+	(wire
+		(pts
+			(xy 62.23 153.67) (xy 62.23 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c89ba6d-c10a-4b40-853c-ac02365cfa8a")
+	)
+	(wire
+		(pts
+			(xy 90.17 86.36) (xy 93.98 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eda394c-5ce2-4c44-a657-83c0b1de6b04")
+	)
+	(wire
+		(pts
+			(xy 96.52 97.79) (xy 111.76 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "843ce7b0-26ee-48f6-814c-ce1914668bb9")
+	)
+	(wire
+		(pts
+			(xy 49.53 158.75) (xy 62.23 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8839eb16-1008-4f2e-89cf-ca100c28b33e")
 	)
 	(wire
 		(pts
@@ -1232,6 +1614,16 @@
 			(type default)
 		)
 		(uuid "89d194b7-b70f-4c4a-96a3-c8685cd4331e")
+	)
+	(wire
+		(pts
+			(xy 96.52 132.08) (xy 111.76 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df2b198-498b-46ad-a494-789e4c649a51")
 	)
 	(wire
 		(pts
@@ -1255,6 +1647,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 154.94) (xy 90.17 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1b3e69-8b93-47a5-888c-5e1ec8be9c5f")
+	)
+	(wire
+		(pts
 			(xy 109.22 109.22) (xy 109.22 121.92)
 		)
 		(stroke
@@ -1265,13 +1667,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 166.37) (xy 90.17 171.45)
+			(xy 62.23 67.31) (xy 62.23 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a63530ad-b2a8-4428-a1a1-3371160f77cb")
+		(uuid "9dbbb902-c81f-4018-ae14-239b4839974d")
+	)
+	(wire
+		(pts
+			(xy 49.53 107.95) (xy 62.23 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5cbe635-e06a-47cb-9a2e-6a56d677dfaf")
 	)
 	(wire
 		(pts
@@ -1285,6 +1697,56 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 109.22) (xy 93.98 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c7122f-ccd1-48c1-837c-00e5cdeecd13")
+	)
+	(wire
+		(pts
+			(xy 62.23 77.47) (xy 62.23 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf7e9de-185f-4bb4-9708-c9c4c40ba459")
+	)
+	(wire
+		(pts
+			(xy 62.23 158.75) (xy 62.23 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3bc944-820f-406d-8e3d-04bc9f603bc5")
+	)
+	(wire
+		(pts
+			(xy 96.52 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf010249-d6f2-46f6-b341-ac474feed5ef")
+	)
+	(wire
+		(pts
+			(xy 62.23 52.07) (xy 62.23 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1cedd21-401f-489b-95db-4afbc046c7cd")
+	)
+	(wire
+		(pts
 			(xy 106.68 120.65) (xy 106.68 125.73)
 		)
 		(stroke
@@ -1295,27 +1757,37 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 97.79) (xy 111.76 97.79)
+			(xy 62.23 143.51) (xy 62.23 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6da40e0-9d42-4daf-8b22-0c6acffdadfb")
+		(uuid "c4a71047-34a9-4e3c-8673-487d033204dc")
 	)
 	(wire
 		(pts
-			(xy 100.33 143.51) (xy 116.84 143.51)
+			(xy 49.53 184.15) (xy 62.23 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb872357-199f-41c2-95aa-b47023a5f36f")
+		(uuid "c7a4310f-683b-4e6a-bc18-429f70520ce9")
 	)
 	(wire
 		(pts
-			(xy 90.17 120.65) (xy 90.17 132.08)
+			(xy 49.53 77.47) (xy 62.23 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc6edddb-c8d4-4d28-b1df-931ebe7534ae")
+	)
+	(wire
+		(pts
+			(xy 90.17 74.93) (xy 90.17 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1325,33 +1797,83 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 86.36) (xy 90.17 97.79)
+			(xy 49.53 153.67) (xy 62.23 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfb57178-b547-4e80-a9a2-824dbc47e7c5")
+		(uuid "cd601cf6-8ff9-4351-900a-bc07ca15d350")
 	)
 	(wire
 		(pts
-			(xy 100.33 74.93) (xy 116.84 74.93)
+			(xy 96.52 143.51) (xy 116.84 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d58b02ee-3ce5-4adf-8913-398628627277")
+		(uuid "d1a7af68-375b-4387-a06e-94c48662203e")
 	)
 	(wire
 		(pts
-			(xy 100.33 154.94) (xy 152.4 154.94)
+			(xy 90.17 74.93) (xy 93.98 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de03f249-bae5-4d50-a6d2-b3128d24ad23")
+		(uuid "d5552778-a50f-46d3-ba59-89ae1b9df9be")
+	)
+	(wire
+		(pts
+			(xy 62.23 123.19) (xy 62.23 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8db4d2-cd18-423e-a9f0-f99f2f676794")
+	)
+	(wire
+		(pts
+			(xy 49.53 123.19) (xy 62.23 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1a2a90-320b-4acc-a497-c417415fba3d")
+	)
+	(wire
+		(pts
+			(xy 62.23 92.71) (xy 62.23 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddbbb35d-9878-4bc4-89ea-f13b14de452a")
+	)
+	(wire
+		(pts
+			(xy 62.23 173.99) (xy 62.23 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e019efc8-b4fa-49a2-b7b8-7b83bbc6e1c2")
+	)
+	(wire
+		(pts
+			(xy 96.52 154.94) (xy 152.4 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0de4179-1c7d-4291-83f8-4a2c71d5c09f")
 	)
 	(wire
 		(pts
@@ -1362,6 +1884,146 @@
 			(type default)
 		)
 		(uuid "e2332c03-57c0-4203-84e1-06552750a616")
+	)
+	(wire
+		(pts
+			(xy 62.23 82.55) (xy 62.23 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f8f68d-b0fc-4519-8094-96da628814b1")
+	)
+	(wire
+		(pts
+			(xy 49.53 173.99) (xy 62.23 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e899f862-fa9d-4aa1-a090-5ed9c57d08a1")
+	)
+	(wire
+		(pts
+			(xy 49.53 143.51) (xy 62.23 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea84f163-f5b3-488a-82d5-8b58bff9b6bc")
+	)
+	(wire
+		(pts
+			(xy 62.23 113.03) (xy 62.23 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f272faff-311e-4560-ae60-e7391a581754")
+	)
+	(wire
+		(pts
+			(xy 49.53 67.31) (xy 62.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2c93f0-7d37-4526-a823-437665a800a9")
+	)
+	(wire
+		(pts
+			(xy 96.52 109.22) (xy 109.22 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb11a099-6ba8-4197-8383-868a7ee70444")
+	)
+	(wire
+		(pts
+			(xy 96.52 166.37) (xy 154.94 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc390287-39d2-4a44-a8a1-89944f5885f6")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 67.31 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "010f938e-810c-4335-a660-1c5c14ec0cf0")
+		(property "Reference" "J15"
+			(at 69.85 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 69.85 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 67.31 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01e998c1-4d0f-4335-a5cc-a94bf64c85d5")
+		)
+		(pin "2"
+			(uuid "bccf6b11-33f8-465f-a362-e60e38a6e764")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1424,74 +2086,6 @@
 			(project ""
 				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 95.25 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "070e4273-a192-45ed-97cf-e76e4f9c1810")
-		(property "Reference" "SW4"
-			(at 95.25 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 95.25 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 95.25 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 95.25 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f3603a7-669c-4c47-affb-ca7b8f4f2774")
-		)
-		(pin "2"
-			(uuid "9b15700c-9454-4c63-b1b5-ee98ab9c8dfe")
-		)
-		(instances
-			(project ""
-				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -1565,33 +2159,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 95.25 97.79 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 93.98 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1599ffd2-e7fe-4171-88a6-3e0344c99ae1")
-		(property "Reference" "SW3"
-			(at 95.25 90.17 0)
+		(uuid "0be06790-8467-4faf-8ff1-4a45e81faf5b")
+		(property "Reference" "J6"
+			(at 99.06 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 95.25 92.71 0)
+		(property "Value" "Conn_01x02"
+			(at 99.06 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 95.25 92.71 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 93.98 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1600,7 +2196,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 92.71 0)
+			(at 93.98 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,8 +2204,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 95.25 97.79 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,10 +2214,80 @@
 			)
 		)
 		(pin "2"
-			(uuid "f40d3907-16ad-44f1-8f49-2f3508bf31a5")
+			(uuid "123d8622-97ea-4fa9-ab2d-a914bfefbbb2")
 		)
 		(pin "1"
-			(uuid "53fb2874-4179-4aaf-a5f8-5e59f6e66ee1")
+			(uuid "2b585206-8668-488e-8088-fbc846f2a63a")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 49.53 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d3cb5c3-0c8c-4a80-9bd7-35e93e1462c1")
+		(property "Reference" "SW3"
+			(at 50.8 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 50.8 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 44.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64677f7b-8d1f-4fbb-82d5-9cc65678ddd5")
+		)
+		(pin "2"
+			(uuid "454621e4-4bdb-41c1-b105-abb19aa6d81d")
 		)
 		(instances
 			(project ""
@@ -1633,33 +2299,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 95.25 132.08 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 93.98 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "37667c19-aab5-46a8-b2e5-a3409ae3c406")
-		(property "Reference" "SW6"
-			(at 95.25 124.46 0)
+		(uuid "1262e7ff-f77b-44d9-a537-a85bcac84319")
+		(property "Reference" "J1"
+			(at 99.06 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 95.25 127 0)
+		(property "Value" "Conn_01x02"
+			(at 99.06 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 95.25 127 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 93.98 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +2336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 127 0)
+			(at 93.98 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,8 +2344,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 95.25 132.08 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,15 +2354,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "27510dec-9552-4df8-92d2-26a0995f1465")
+			(uuid "45d6a47c-d2f5-4d54-986f-ef1613d33a80")
 		)
 		(pin "2"
-			(uuid "f8a21e2c-c1d0-4d74-8794-f5356d88d8b0")
+			(uuid "efae971b-d6e0-4ee1-ba0e-6b05695d6e86")
 		)
 		(instances
 			(project ""
 				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
-					(reference "SW6")
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 67.31 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15170980-f86c-46da-a499-098d836645ce")
+		(property "Reference" "J10"
+			(at 69.85 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 69.85 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 67.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4689ad57-129f-4eeb-bcb4-80ddd463dcde")
+		)
+		(pin "1"
+			(uuid "fd6b4cfd-3af6-4aaa-b527-885aa786da48")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -1702,32 +2440,34 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 95.25 74.93 0)
+		(at 49.53 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3b8f9fd5-dd82-4423-a5b7-aec2f61213fc")
-		(property "Reference" "SW1"
-			(at 95.25 67.31 0)
+		(uuid "1edb113e-01d9-4b6c-9fc4-35861a2d1180")
+		(property "Reference" "SW9"
+			(at 50.8 177.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 95.25 69.85 0)
+			(at 50.8 180.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 95.25 69.85 0)
+			(at 44.45 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1736,7 +2476,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 69.85 0)
+			(at 44.45 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1745,7 +2485,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 95.25 74.93 0)
+			(at 49.53 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,16 +2493,156 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "e303f528-e4d1-4e16-95ef-f769bd16cbf5")
-		)
 		(pin "1"
-			(uuid "025a012c-493d-48ed-9bba-68a8fed58e92")
+			(uuid "53294225-a0bf-43c5-9842-d38723f5757c")
+		)
+		(pin "2"
+			(uuid "75e4c3db-ab99-4c8f-ad04-e93072aad20f")
 		)
 		(instances
 			(project ""
 				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
-					(reference "SW1")
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 93.98 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2594ddfc-7e66-427a-b4e8-7cc71c08dd29")
+		(property "Reference" "J2"
+			(at 99.06 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 99.06 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36fb5ebd-cf99-405a-ab9c-f08298ae09ea")
+		)
+		(pin "2"
+			(uuid "d0cca820-1056-4bb1-a1f5-758e1169fbc0")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 67.31 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a0ddf5a-3292-46df-bef8-de34eebf6b88")
+		(property "Reference" "J14"
+			(at 69.85 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 69.85 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9249dce9-350b-4178-aef4-718be00ce896")
+		)
+		(pin "2"
+			(uuid "802cd087-4bf7-435e-8dbb-2189497190f1")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -1770,32 +2650,34 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 95.25 86.36 0)
+		(at 49.53 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4d719bc0-7415-4680-bcb2-44bbd33262ae")
-		(property "Reference" "SW2"
-			(at 95.25 78.74 0)
+		(uuid "346e06cd-10bb-42b7-b502-7d0cdea63d14")
+		(property "Reference" "SW7"
+			(at 50.8 147.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 95.25 81.28 0)
+			(at 50.8 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 95.25 81.28 0)
+			(at 44.45 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +2686,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 81.28 0)
+			(at 44.45 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,7 +2695,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 95.25 86.36 0)
+			(at 49.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,15 +2704,155 @@
 			)
 		)
 		(pin "2"
-			(uuid "a10e61df-8eab-4d87-99d7-e01c012aa09c")
+			(uuid "6597c2b0-e95a-4e35-8eab-ea45c4aa2060")
 		)
 		(pin "1"
-			(uuid "be683609-0c2e-4d45-a11d-c25483efd380")
+			(uuid "832f390d-a350-4b89-be0b-7f42ea453bd9")
 		)
 		(instances
 			(project ""
 				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
-					(reference "SW2")
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 49.53 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f99354b-611b-4492-8f3a-6a86bcd3b885")
+		(property "Reference" "SW4"
+			(at 50.8 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 50.8 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 44.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 49.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e00270c2-2976-420d-916e-946f1390937a")
+		)
+		(pin "2"
+			(uuid "279f22c2-ada7-40a8-bc4d-ac35fc9391f5")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 93.98 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6485dc88-b27f-4793-988a-b25083d3f9ce")
+		(property "Reference" "J3"
+			(at 99.06 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 99.06 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 93.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc55bd5d-772f-4249-b90d-9db2f2cd7f3b")
+		)
+		(pin "1"
+			(uuid "f2d036f2-906a-4cb1-808e-8274427b94ea")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1905,32 +2927,34 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 95.25 143.51 0)
+		(at 49.53 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "787b5122-814c-46c2-bbd1-654e0dd76df3")
-		(property "Reference" "SW7"
-			(at 95.25 135.89 0)
+		(uuid "816af321-8c8b-4b8d-b26d-12eeed8df90d")
+		(property "Reference" "SW6"
+			(at 50.8 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 95.25 138.43 0)
+			(at 50.8 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 95.25 138.43 0)
+			(at 44.45 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,7 +2963,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 138.43 0)
+			(at 44.45 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,7 +2972,77 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 95.25 143.51 0)
+			(at 49.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "905a106a-6075-4ae8-8c85-140b2f45cbc9")
+		)
+		(pin "2"
+			(uuid "f53573ec-9da3-4a86-9f51-82041da6722e")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 49.53 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83714360-7775-4375-aada-df8c7c5c3d28")
+		(property "Reference" "SW1"
+			(at 50.8 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 50.8 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 44.45 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 49.53 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,15 +3051,225 @@
 			)
 		)
 		(pin "2"
-			(uuid "44e60857-49f3-4a3f-8189-da381e1b7a27")
+			(uuid "b30139a4-b15b-4ae4-a107-49780457eae8")
 		)
 		(pin "1"
-			(uuid "541a99fd-f4c4-4f77-b14c-4e0c83f9e415")
+			(uuid "b63b5d80-780d-4595-aabe-78160e41dce4")
 		)
 		(instances
 			(project ""
 				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
-					(reference "SW7")
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 93.98 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89be45f3-0dca-4905-8527-079c9e5bbf6c")
+		(property "Reference" "J5"
+			(at 99.06 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 99.06 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 93.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6920e472-5e9b-40ff-b191-2fe50e5cea70")
+		)
+		(pin "2"
+			(uuid "22122c80-b4f8-46cc-a5c6-0a0d6a485796")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 49.53 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e8c3f69-883a-4a01-a87c-3473ca3c89aa")
+		(property "Reference" "SW8"
+			(at 50.8 162.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 50.8 165.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 44.45 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 49.53 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0cc2e7aa-ca81-4cc6-b9e8-42d8a10547d4")
+		)
+		(pin "1"
+			(uuid "520cf6f6-f4d7-4a9e-b938-f10f25a70e58")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 93.98 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92c0f7f6-3004-4484-b19a-b20ffdc2f582")
+		(property "Reference" "J4"
+			(at 99.06 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 99.06 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d27194b-263d-4e60-a2b2-8a6ebb7bc14a")
+		)
+		(pin "1"
+			(uuid "d7c03331-5cda-4586-ad4d-248f85bcfec3")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2075,33 +3379,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 95.25 166.37 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 67.31 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9f04f20c-980e-4dcc-b528-0c266cafd952")
-		(property "Reference" "SW9"
-			(at 95.25 158.75 0)
+		(uuid "9a8e22a4-c98b-4073-92c6-d90c515aa869")
+		(property "Reference" "J16"
+			(at 69.85 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 95.25 161.29 0)
+		(property "Value" "Conn_01x02"
+			(at 69.85 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 95.25 161.29 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 67.31 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +3416,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 161.29 0)
+			(at 67.31 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2118,8 +3424,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 95.25 166.37 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,48 +3434,50 @@
 			)
 		)
 		(pin "2"
-			(uuid "7a9e0d61-e398-46c7-8dd6-10a35f929f87")
+			(uuid "78f893a7-7cb9-44eb-9d86-917f747af872")
 		)
 		(pin "1"
-			(uuid "3173bb18-05df-4dee-b928-9e437f526c28")
+			(uuid "94273c04-c656-4cb8-a56a-9d8a6af5a975")
 		)
 		(instances
 			(project ""
 				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
-					(reference "SW9")
+					(reference "J16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 95.25 154.94 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 67.31 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a6416885-586b-4f22-969d-f8e83a0dc8ed")
-		(property "Reference" "SW8"
-			(at 95.25 147.32 0)
+		(uuid "9c8aab89-8305-4909-9d2d-080ceeeb9894")
+		(property "Reference" "J13"
+			(at 69.85 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 95.25 149.86 0)
+		(property "Value" "Conn_01x02"
+			(at 69.85 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 95.25 149.86 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 67.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2178,7 +3486,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 149.86 0)
+			(at 67.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,8 +3494,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 95.25 154.94 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2196,15 +3504,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "e6db62b1-7013-4f07-adbd-eb621207289b")
+			(uuid "2b8e66cd-7748-412b-89ba-8a559ae14848")
 		)
 		(pin "2"
-			(uuid "7244ee9e-928a-419a-807f-f38bc6d98596")
+			(uuid "f33da47e-bf6b-40d6-bbe7-42855a639a42")
 		)
 		(instances
 			(project ""
 				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
-					(reference "SW8")
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 67.31 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b776e6a6-4521-401e-87e4-5add76e223ce")
+		(property "Reference" "J18"
+			(at 69.85 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 69.85 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 67.31 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ff1f0f8-358f-45de-9f5c-55ad43091b71")
+		)
+		(pin "2"
+			(uuid "b67686f8-1734-46b9-910b-593a75c39509")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -2212,32 +3590,384 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 95.25 120.65 0)
+		(at 49.53 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd9f38fe-6227-4a50-a8c2-82ffdf690208")
+		(uuid "c87de960-8d3d-4fd3-9a03-24f197c83938")
+		(property "Reference" "SW2"
+			(at 50.8 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 50.8 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 49.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9eb4d7b0-584d-4935-a2ef-111c7fada1ee")
+		)
+		(pin "1"
+			(uuid "a9560b71-467c-425a-b903-38ac0eb173d2")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 93.98 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d22dad55-a921-4335-b63f-48ccd1b53db5")
+		(property "Reference" "J7"
+			(at 99.06 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 99.06 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f868af22-a50f-47ce-82f0-242193c0ea9b")
+		)
+		(pin "1"
+			(uuid "2d86df66-62cd-4c16-b889-e60c7dfa49ae")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 67.31 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4933926-00e7-4340-b7b6-a77fd88331f0")
+		(property "Reference" "J17"
+			(at 69.85 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 69.85 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 67.31 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ffb3eb5-9fb0-416e-abc0-cdf4e96677b2")
+		)
+		(pin "2"
+			(uuid "7fa77a29-c8a6-4cee-840b-14e30e6868c3")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 67.31 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0e323fc-7663-420b-8f92-90fefb8d0f8d")
+		(property "Reference" "J12"
+			(at 69.85 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 69.85 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "486fbcc5-0965-4e6f-9bd0-5628ea6e4735")
+		)
+		(pin "2"
+			(uuid "d03ea77f-3275-45b8-8e0c-2e38ef51392d")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 93.98 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e717818c-4e46-43b1-b69a-1c850965b49e")
+		(property "Reference" "J8"
+			(at 99.06 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 99.06 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 93.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c6c089f-e543-4c61-9452-87455b3d09d2")
+		)
+		(pin "1"
+			(uuid "55840519-eae9-4038-902b-29a746fc08a9")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 49.53 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef39f888-5d94-42f3-adf2-b1493bf2bf4f")
 		(property "Reference" "SW5"
-			(at 95.25 113.03 0)
+			(at 50.8 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 95.25 115.57 0)
+			(at 50.8 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 95.25 115.57 0)
+			(at 44.45 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +3976,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 115.57 0)
+			(at 44.45 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +3985,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 95.25 120.65 0)
+			(at 49.53 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,15 +3994,155 @@
 			)
 		)
 		(pin "1"
-			(uuid "76e16cee-5903-47d7-a261-cb70de013c08")
+			(uuid "534a624b-177c-450c-be07-00af23c5bcec")
 		)
 		(pin "2"
-			(uuid "eebdea03-b290-4369-a477-102540ee086e")
+			(uuid "97b85c4e-a552-4f02-95a2-5820bbd6eed8")
 		)
 		(instances
 			(project ""
 				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
 					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 93.98 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f207a295-cb21-492a-b8bb-f9d87e7888c7")
+		(property "Reference" "J9"
+			(at 99.06 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 99.06 162.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 93.98 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88e522b0-70b6-4330-aae9-af4dd1f2b246")
+		)
+		(pin "2"
+			(uuid "f60d6c1a-6240-4f43-a243-0391377c0c9e")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 67.31 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcaba918-06a4-4617-9c35-89f13eae21ae")
+		(property "Reference" "J11"
+			(at 69.85 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 69.85 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df86906c-4e89-4978-a3ac-23a4b8980298")
+		)
+		(pin "2"
+			(uuid "576f2a7f-d239-449c-89e8-1ad9e3b8dacb")
+		)
+		(instances
+			(project ""
+				(path "/ff34aeee-e72e-48d1-8b80-cee7337461b3"
+					(reference "J11")
 					(unit 1)
 				)
 			)
